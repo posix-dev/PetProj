@@ -1,6 +1,7 @@
 ext {
     appCompat_version = '1.0.2'
     retrofit_version = '2.5.0'
+    design_version = '1.0.0'
     gson_version = '2.8.2'
     glide_version = '4.0.0'
     lifecycle_version = '2.0.0'
@@ -35,7 +36,7 @@ ext {
             appCompat           : "androidx.appcompat:appcompat:$appCompat_version",
             ktx                 : "androidx.core:core-ktx:$appCompat_version",
             recyclerView        : "androidx.recyclerview:recyclerview:$appCompat_version",
-            design              : "com.google.android.material:material:$appCompat_version",
+            design              : "com.google.android.material:material:$design_version",
             cardView            : "com.android.support:cardview-v7:$appCompat_version",
             coreUI              : "com.android.support:support-core-ui:$appCompat_version",
             cicerone            : "ru.terrakok.cicerone:cicerone:$cicerone_version",

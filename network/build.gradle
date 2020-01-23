@@ -44,4 +44,16 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation deps.retrofitConverter
+    implementation deps.retrofit
+    implementation deps.loggingInterceptor
+    implementation deps.rxJavaAdapterFactory
+    implementation deps.rxJava
+    implementation deps.kotlin
+    implementation deps.dagger
+
+    api(deps.gson) { transitive = true }
+    api(deps.gsonConverter) { transitive = true }
+    api(deps.scalarsConverter) { transitive = true }
 }

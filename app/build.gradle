@@ -41,6 +41,30 @@ dependencies {
     implementation deps.appCompat
     implementation deps.ktx
     implementation deps.constraint
+    implementation deps.design
+    implementation deps.kotlin
+    implementation deps.dagger
+    kapt deps.daggerCompiler
+    implementation deps.rxJava
+    implementation deps.rxAndroid
+    implementation deps.rxKotlin
+    implementation deps.cicerone
+    implementation deps.timber
+    implementation deps.lifecycleRuntime
+    implementation deps.lifecycleExtensions
+    implementation deps.stetho
+    implementation deps.firebaseCore
+    implementation deps.firebaseMessaging
+    implementation deps.workManager
+    implementation deps.workManagerRx
+    implementation deps.remoteConfig
+    implementation deps.sentry
+    implementation deps.slf4j
+    implementation deps.playServiceLocation
+    implementation deps.googleMaps
+    implementation deps.legacySupport
+    implementation deps.googleMapsUtils
+    implementation deps.traceur
 
 
     testImplementation testDeps.supportTestRunner

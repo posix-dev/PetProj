@@ -1,4 +1,6 @@
 package me.uptop.prox.ui
 
-class OneFragment {
+import androidx.fragment.app.Fragment
+
+class OneFragment: Fragment() {
 }
