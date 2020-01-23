@@ -10,154 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6caed9a3-fe0a-4fce-9541-b1f395940b1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_extensions_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_service_2_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_common_2_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_room_room_runtime_2_1_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_sqlite_sqlite_framework_2_0_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_work_work_runtime_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_work_work_rxjava2_2_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_stetho_stetho_1_5_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_qoqa_Traceur_2_2_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_16_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_impl_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_placereport_16_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_value_auto_value_annotations_1_6_3_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_abt_18_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_18_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_config_18_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_19_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_17_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_18_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_19_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_guava_listenablefuture_1_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_maps_android_android_maps_utils_0_5_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_logging_interceptor_3_10_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_12_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_15_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_adapter_rxjava2_2_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_gson_2_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_converter_scalars_2_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_retrofit2_retrofit_2_5_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_cli_commons_cli_1_2_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxandroid_2_1_1_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_reactivex_rxjava2_rxjava_2_2_12_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ru_terrakok_cicerone_cicerone_5_0_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/MainViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/Injector.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/component/ActivityComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/component/AppComponent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/ActivityModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/AppModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/data/RepositoryModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/data/network/NetworkModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/data/network/NetworkModuleInterceptors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/manager/ManagerModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/service/ServiceModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/test/TestAppModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/test/TestNetworkModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/vm/ViewModelFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/vm/ViewModelKey.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/vm/ViewModelModule.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/scope/ActivityScope.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/base/BaseFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/base/BaseRouterViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/base/BaseViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/base/ISnackbarWrapper.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/base/SingleLiveEvent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/base/SnackbarDelegate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/routing/BackButtonListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/routing/NavigatorCommandListener.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/routing/Screen.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/Some.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/error/ErrorHandler.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/error/Retrier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/error/RetryCompletableObserver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/error/RetryMaybeObserver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/error/RetryObservableObserver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/error/RetrySingleObserver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/event/Event.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/event/EventsObserver.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils/mvvm/event/SingleLiveEvent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/me/uptop/data/NetworkType.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/me/uptop/data/SomeFile.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/me/uptop/data/interceptors/ErrorsInterceptor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/me/uptop/data/interceptors/HeaderInterceptor.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/me/uptop/data/provider/AuthProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/src/main/java/me/uptop/data/provider/NetworkAvailabilityProvider.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/me/uptop/domain/BuildConfigQualifier.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/me/uptop/domain/error/ApiErrorException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/me/uptop/domain/error/BaseServerException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/me/uptop/domain/error/NetworkUnavailableException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/me/uptop/domain/error/UnauthorizedException.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/CustomNetwork.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/api/ApiFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/api/SomeApi.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/apistub/SomeApiStub.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/converter/UtcTimeDateConverter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/SomeDto.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common/KeyValue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common/Params.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common/RequestObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common/ResponseError.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common/ResponseObject.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common/ResponseStatus.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/network/src/main/java/me/uptop/network/security/StubbedSslSocketFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uikit/src/main/java/me/uptop/uikit/ProgressDialog.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_alpha1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_alpha1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_alpha1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_3_4_0_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_1_9_0_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/OneFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/OneFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/OneViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/OneViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildsystem/dependencies.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/buildsystem/dependencies.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data/data.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/database/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/network/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/network/network.iml" beforeDir="false" afterPath="$PROJECT_DIR$/network/network.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uikit/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/uikit/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,15 +90,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/ActivityModule.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/vm/ViewModelModule.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -257,14 +101,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/me/uptop/prox/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="445">
               <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding>
                 <element signature="e#23#254#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -277,15 +130,6 @@
               <folding>
                 <element signature="e#23#92#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/base/BaseFragment.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -321,15 +165,22 @@
       <find>ru.x5</find>
       <find>eventsLiveData</find>
       <find>compileSdk</find>
+      <find>.gradle</find>
+      <find>.idea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop2" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/domain/src/main/java/me/uptop/domain/error/UnauthorizedException.kt" />
         <option value="$PROJECT_DIR$/domain/src/main/java/me/uptop/domain/error/BaseServerException.kt" />
         <option value="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common/Params.kt" />
         <option value="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common/RequestObject.kt" />
@@ -380,12 +231,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/App.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/di/module/vm/ViewModelModule.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/MainViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/.gitignore" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="118" />
-    <option name="y" value="47" />
+    <option name="x" value="-21" />
+    <option name="y" value="23" />
     <option name="width" value="1614" />
     <option name="height" value="1027" />
   </component>
@@ -406,16 +258,6 @@
             <path>
               <item name="SomeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="SomeProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="SomeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SomeProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SomeProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SomeProject" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -456,11 +298,11 @@
       <recent name="me.uptop.data" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/utils" />
       <recent name="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui/base" />
       <recent name="$PROJECT_DIR$/app/src/main/java/me/uptop/prox/ui" />
       <recent name="$PROJECT_DIR$/network/src/main/java/me/uptop/network" />
-      <recent name="$PROJECT_DIR$/network/src/main/java/me/uptop/network/dto/common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -551,9 +393,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="81" y="23" width="1614" height="1027" extended-state="0" />
+    <frame x="-21" y="23" width="1614" height="1027" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32951653" />
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.32951653" />
       <window_info id="Structure" side_tool="true" />
       <window_info id="Build Variants" side_tool="true" />
       <window_info id="Image Layers" />
@@ -568,7 +410,7 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Find" />
       <window_info anchor="bottom" id="Debug" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49872774" visible="true" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49872774" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50127226" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Build" sideWeight="0.49936387" weight="0.32941177" />
       <window_info anchor="bottom" id="Android Profiler" />
@@ -584,23 +426,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/me/uptop/data/provider/AuthProvider.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/src/main/java/me/uptop/data/interceptors/HeaderInterceptor.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#36#179#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/src/main/java/me/uptop/domain/error/ApiErrorException.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -959,13 +784,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/me/uptop/prox/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="445">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
             <element signature="e#23#254#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>
