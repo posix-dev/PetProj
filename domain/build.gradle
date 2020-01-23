@@ -1,0 +1,25 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation deps.kotlin
+    implementation deps.rxJava
+    implementation deps.rxKotlin
+    implementation deps.dagger
+}
+
+
+test {
+    useJUnitPlatform()
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
+
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}

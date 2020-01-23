@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply from: '../buildsystem/jacoco.gradle'
+
+android {
+    compileSdkVersion target_sdk
+
+    defaultConfig {
+        applicationId application_id
+        minSdkVersion min_sdk
+        targetSdkVersion target_sdk
+        versionCode version_code
+        versionName version_name
+        testInstrumentationRunner testAndroidInstrumentationRunner
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':uikit')
+    api project(':domain')
+    api project(':network')
+    api project(':database')
+    api project(':data')
+
+
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation deps.appCompat
+    implementation deps.ktx
+    implementation deps.constraint
+
+
+    testImplementation testDeps.supportTestRunner
+    testImplementation testDeps.espressoCore
+    androidTestImplementation(testDeps.barista) {
+        exclude group: 'com.android.support'
+        exclude group: 'org.jetbrains.kotlin'
+    }
+
+    androidTestImplementation testDeps.androidTestUiCore
+    androidTestImplementation testDeps.supportTestRunner
+    androidTestImplementation testDeps.testRules
+    androidTestImplementation testDeps.uiTestExtJunit
+    androidTestImplementation testDeps.espressoCore
+    androidTestUtil testDeps.uiTestOrchestrator
+    androidTestImplementation(testDeps.mockwebserver) {
+        exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+    }
+    androidTestImplementation testDeps.idlingresource
+}

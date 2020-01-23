@@ -1,0 +1,47 @@
+apply from: androidLibsCommon
+apply plugin: 'kotlin-android'
+
+android {
+
+    defaultConfig {
+        versionCode version_code
+        versionName version_name
+    }
+
+    buildTypes {
+        debug {
+            buildConfigField "String", "API_AUTH_URL", "\"http://route-registration-mfp-test.os-pub.x5.ru/api/\""
+            buildConfigField "String", "API_FLEET_URL", "\"http://route-fleet-mfp-test.os-pub.x5.ru/api/\""
+            buildConfigField "String", "API_FLEET_OPEN_URL", "\"http://route-fleet-mfp-test.os-pub.x5.ru/info/\""
+            buildConfigField "String", "API_AUTH_KEYCLOAK_URL", "\"https://mfpsso-mfp-test.os-pub.x5.ru/auth/\""
+            buildConfigField "String", "API_PUSHES_URL", "\"http://route-fleet-mfp-test.os-pub.x5.ru/api/\""
+            buildConfigField "boolean", "API_LOGGING_ENABLED", "true"
+        }
+        debugStub {
+            initWith debug
+        }
+        debugTest {
+            initWith debug
+        }
+        rc {
+            initWith debug
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            buildConfigField "String", "API_AUTH_URL", "\"https://logistics.x5.ru/registration-api/\""
+            buildConfigField "String", "API_FLEET_URL", "\"https://logistics.x5.ru/driver-api/\""
+            buildConfigField "String", "API_FLEET_OPEN_URL", "\"https://logistics.x5.ru/driver-info/\""
+            buildConfigField "String", "API_PUSHES_URL", "\"https://logistics.x5.ru/driver-api/\""
+            buildConfigField "String", "API_AUTH_KEYCLOAK_URL", "\"https://logistics.x5.ru/auth/\""
+            buildConfigField "boolean", "API_LOGGING_ENABLED", "false"
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}

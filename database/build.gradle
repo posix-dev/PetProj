@@ -1,0 +1,63 @@
+apply from: androidLibsCommon
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion 28
+
+
+    defaultConfig {
+        versionCode version_code
+        versionName version_name
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    buildTypes {
+
+        debug {
+            buildConfigField "boolean", "API_LOGGING_ENABLED", "true"
+        }
+        debugStub {
+            initWith debug
+        }
+        debugTest {
+            initWith debug
+        }
+        rc {
+            initWith debug
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        androidTest.assets.srcDirs += files("$projectDir/schemas".toString())
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation deps.rxJava
+    kapt deps.roomCompiler
+    implementation deps.kotlin
+    implementation deps.dagger
+    implementation deps.roomCommon
+    implementation deps.roomMigration
+    api deps.roomRuntime
+    implementation deps.roomRxJava
+
+    androidTestImplementation testDeps.supportTestRunner
+    androidTestImplementation testDeps.roomTesting
+}

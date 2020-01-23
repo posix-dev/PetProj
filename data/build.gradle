@@ -1,0 +1,20 @@
+apply from: androidLibsCommon
+apply plugin: 'kotlin-android'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api project(':domain')
+    api project(':network')
+    api project(':database')
+    //common?
+
+    implementation deps.kotlin
+    implementation deps.dagger
+    implementation deps.rxJava
+    implementation deps.rxKotlin
+    implementation deps.sentry
+    implementation deps.timber
+    implementation deps.slf4j
+
+    testImplementation testDeps.kotlinReflect
+}

@@ -1,0 +1,2 @@
+include ':app', ':data', ':database', ':domain', ':network', ':uikit'
+rootProject.name='SomeProject'

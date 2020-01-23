@@ -1,0 +1,74 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: 'buildsystem/dependencies.gradle'
+
+buildscript {
+    ext.kotlin_version = '1.3.61'
+    ext.application_id = 'me.uptop.prox'
+
+    //Sem Ver: Major.Minor.Patch. If you update major or minor version you must check AppUpdatedDialog for correct updates info (more in README.md)
+    ext.version_code = 24
+    ext.version_name = '1.3.1'
+
+    ext.kotlin_version = '1.3.50'
+    ext.gradle_tools = '3.5.3'
+    ext.build_tools = '28.0.3'
+    ext.google_services_version = '4.2.0'
+
+    ext.compile_sdk = 28
+    ext.target_sdk = 28
+    ext.min_sdk = 21
+
+    ext.testAndroidInstrumentationRunner = 'ru.x5.mfp.runner.MockTestRunner'
+    ext.androidLibsCommon = '../buildsystem/lib.common.gradle'
+
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url = "https://art.x5.ru/maven/" }
+        maven { url 'https://jitpack.io' }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradle_tools"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.google.gms:google-services:$google_services_version"
+        classpath 'org.jfrog.buildinfo:build-info-extractor-gradle:4.10.0'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+        maven { url = "https://art.x5.ru/maven/" }
+        maven { url 'https://jitpack.io' }
+    }
+
+    tasks.withType(Test) {
+        testLogging {
+            exceptionFormat "full"
+            events "started", "skipped", "passed", "failed"
+            showStandardStreams true
+        }
+    }
+
+    configurations {
+        ktlint
+    }
+
+
+    subprojects {
+        //For run parallel test task
+        tasks.withType(Test) {
+            maxParallelForks = Runtime.runtime.availableProcessors()
+        }
+    }
+
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
